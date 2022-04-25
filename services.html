@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallbeats - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://use.fontawesome.com/a9e05c0263.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Wall__1_-removebg-preview.png" type="image/x-icon">
+    <style>
+*{
+  padding: 0;
+  margin: 0;
+}
+
+        #img {
+            width: 96px;
+        }
+        
+        #container {
+            margin-top: -15px;
+            padding-bottom: 0px;
+            padding-top: 13px;  
+            color: white;
+        }
+        
+        a:hover {
+    cursor: pointer;
+}
+
+a {
+    transition: ease 0.6ms;
+}
+
+a button {
+    transition: all 0.3ms ease;
+}
+
+button:hover {
+    background: rgb(218, 212, 212);
+    
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: -13px -2px;
+}
+
+header {
+    background-color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}   
+#navbar{
+    font-size: 19px;
+    padding-right: 161px;
+    margin-left: 39px;
+    padding-bottom: 17px;
+    margin-top: 9px;
+    padding-left: 38px;
+
+    
+}
+nav ul li a{
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: white;
+    
+}
+.active a{
+    background: rgb(218, 212, 212);
+    color: #1b1b1b;
+}
+body{
+  background-color: #1b1b1b;
+}
+#intro{
+    color: white;
+}
+.menu-btn {
+    color: white;
+    float: right;
+    margin-right: 3px;
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: -140px;
+    margin-right: -409px;
+    
+}
+#wall{
+  color: aliceblue;
+}
+#beat{
+  color: aliceblue;
+}
+#content{
+background-color: #1b1b1b;
+}
+#foot{
+  margin-top: -45px;
+}
+#logo{
+  width: 85px;
+}
+
+
+@media (max-width: 764px){
+  #navbar{
+    z-index: 9;
+  }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 40px 0;
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li a:hover{
+        background-color: white;
+        
+    }
+    .menu-btn{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    #intro{
+    color: white;
+    
+    margin: 10px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 100000000000;
+}
+    ul{
+        display: none;
+    }
+    #wall{
+      color: aliceblue;
+    }
+#beat{
+  color: aliceblue;
+}
+#logo{
+  width: 85px;
+}
+#foot{
+  margin-top: -45px;
+}
+#content{
+background-color: #1b1b1b;
+}
+#logo{
+  visibility: hidden;
+}
+}
+</style>
+
+</head>
+
+<body>
+  
+  <div class="container">
+
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="container">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" id="intro">
+          <img src="Wall__1_-removebg-preview.png" alt="logo" id="img">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Wallbeats</span>
+            </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center" id="navbar">
+           
+            <span class="menu-btn" onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+
+                    <li><a class="mr-5 hover:text-gray-900" href="index.html">Home</a></li>
+                    <li class="active"><a class="mr-5 hover:text-gray-900" href="#">Services</a></li>
+                    <li><a class="mr-5 hover:text-gray-900" href="https://discord.gg/y9nvqnCtqz" target="blank">Contact</a></li>
+                </ul>
+
+            </nav>
+         
+          </div>
+          </header>
+          <section class="text-gray-600 body-font" id="sec">
+            <div class="container px-5 py-24 mx-auto" id="commerce">
+              <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (6).png    ">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BEATS</h3>
+                    <h2 class="text-whitesmoke title-font text-lg font-medium">Trap Beat</h2>
+                    <p class="mt-1">$8.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full" >
+                  <a class="block relative h-48 rounded overflow-hidden" href="https://www.instagram.com/wall.beats_09/" targ>
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (7).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BEATS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Old School Beat</h2>
+                    <p class="mt-1">$7.15</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (8).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BEATS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Drill Beat </h2>
+                    <p class="mt-1">$10.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (9).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BEATS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Boom Bap Beat</h2>
+                    <p class="mt-1">$9.40</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (10).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">WALPAPERS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Gaming Wallpaper</h2>
+                    <p class="mt-1">$3.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden" href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (11).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">WALLPAPERS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Customized Wallpaper</h2>
+                    <p class="mt-1">$5.15</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (12).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">WALLPAPERS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Full Customized Wallpaer</h2>
+                    <h4 class="text-gray-500 text-xs tracking-widest title-font mb-1 p-1">You can tell how type of wallpaper you want talking in Discord VC</h4>
+                    <p class="mt-1">$12.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden"  href="https://www.instagram.com/wall.beats_09/" target="_blank">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Untitled design (13).png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">WALLPAPERS</h3>
+                    <h2 class="text-whitesmoke  title-font text-lg font-medium">Normal Wallpaper</h2>
+                    <p class="mt-1">$1.40</p>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </section>
+          <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" id="foot">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <img src="Wall__1_-removebg-preview.png" alt="" id="logo">
+                <span class="ml-3 text-xl">Wallbeats</span>
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Wallbeats —
+                <a href="https://discord.gg/y9nvqnCtqz" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@wallbeats</a>
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </footer>
+        </div>
+  
+            <script>
+              function myFunction(){
+                  var x = document.getElementById("menu");
+                  if(x.style.display == "block"){
+                      x.style.display = "none";
+                  }
+                  else{
+                      x.style.display = "block";
+                  }
+              }
+          </script>
+          </body>
+          </html>
+          
